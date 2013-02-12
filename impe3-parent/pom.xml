@@ -20,7 +20,7 @@
 	</scm>
 
 	<properties>
-		<baseimpe3Version>2.9.191</baseimpe3Version>
+		<baseimpe3Version>2.9.192</baseimpe3Version>
 		<externalApiVersion>2.9.190</externalApiVersion>
 	</properties>
 
