@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<parent>
 		<artifactId>impe3-maven</artifactId>
 		<groupId>com.isotrol.impe3.maven</groupId>
@@ -9,8 +10,15 @@
 	<artifactId>impe3-parent</artifactId>
 	<version>2.9.190-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Port@l :: Projects Parent Pom</name>
-	<description>Port@l :: Projects Parent Pom</description>
+	<name>Port@l 3.0:: Projects Parent Pom</name>
+	<description>Port@l 3.0 :: Projects Parent Pom</description>
+
+	<scm>
+		<connection>scm:git:https://code.google.com/p/isotrol-portal.p3parent/</connection>
+		<developerConnection>scm:git:https://code.google.com/p/isotrol-portal.p3parent/</developerConnection>
+		<url>http://code.google.com/p/isotrol-portal/source/browse/?repo=p3parent</url>
+		<tag>HEAD</tag>
+	</scm>
 
 	<properties>
 		<baseimpe3Version>2.9.190</baseimpe3Version>
@@ -20,6 +28,21 @@
 	<dependencyManagement>
 		<dependencies>
 			<!-- Port@l Main Project Modules -->
+			<dependency>
+				<groupId>com.isotrol.impe3</groupId>
+				<artifactId>impe3-lucene</artifactId>
+				<version>${baseimpe3Version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.isotrol.impe3</groupId>
+				<artifactId>impe3-hib</artifactId>
+				<version>${baseimpe3Version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.isotrol.impe3</groupId>
+				<artifactId>impe3-es-common-server</artifactId>
+				<version>${baseimpe3Version}</version>
+			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-api</artifactId>
@@ -175,7 +198,7 @@
 				<artifactId>impe3-pms-ext-api</artifactId>
 				<version>${externalApiVersion}</version>
 			</dependency>
-<dependency>
+			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-es-web20-api</artifactId>
 				<version>${externalApiVersion}</version>
@@ -200,34 +223,8 @@
 				<artifactId>impe3-mapping-api</artifactId>
 				<version>${externalApiVersion}</version>
 			</dependency>
-			<!-- Port@l Support Modules -->
-			<dependency>
-				<groupId>com.isotrol.impe3</groupId>
-				<artifactId>impe3-lucene</artifactId>
-				<version>${baseimpe3Version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.isotrol.impe3</groupId>
-				<artifactId>impe3-hib</artifactId>
-				<version>${baseimpe3Version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.isotrol.impe3</groupId>
-				<artifactId>impe3-es-common-server</artifactId>
-				<version>${baseimpe3Version}</version>
-			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
-
-	<scm>
-		<connection>scm:svn:https://svn.isotrol.com/ETC_ISTL_IMP3225600/trunk/source/impe3-parent
-		</connection>
-		<developerConnection>scm:svn:https://svn.isotrol.com/ETC_ISTL_IMP3225600/trunk/source/impe3-parent
-		</developerConnection>
-		<url>https://svn.isotrol.com/ETC_ISTL_IMP3225600/trunk/source/impe3-parent
-		</url>
-	</scm>
 
 	<build>
 		<plugins>
