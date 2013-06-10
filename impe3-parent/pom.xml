@@ -20,12 +20,24 @@
 	</scm>
 
 	<properties>
-		<baseimpe3Version>2.9.193</baseimpe3Version>
+		<baseimpe3Version>2.9.194-SNAPSHOT</baseimpe3Version>
 		<externalApiVersion>2.9.190</externalApiVersion>
 	</properties>
 
 	<dependencyManagement>
 		<dependencies>
+		
+		<!-- Lucis -->
+			<dependency>
+				<groupId>net.sf.lucis</groupId>
+				<artifactId>lucis-api</artifactId>
+				<version>3.6.4</version>
+			</dependency>
+			<dependency>
+				<groupId>net.sf.lucis</groupId>
+				<artifactId>lucis-core</artifactId>
+				<version>3.6.4</version>
+			</dependency>
 			<!-- Port@l Main Project Modules -->
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
@@ -95,6 +107,11 @@
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-nr-core</artifactId>
+				<version>${baseimpe3Version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.isotrol.impe3</groupId>
+				<artifactId>impe3-nr-audit</artifactId>
 				<version>${baseimpe3Version}</version>
 			</dependency>
 			<dependency>
