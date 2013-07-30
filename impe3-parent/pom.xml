@@ -7,7 +7,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.isotrol.impe3</groupId>
 	<artifactId>impe3-parent</artifactId>
-	<version>2.9.195</version>
+	<version>2.9.196-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Port@l 3.0:: Projects Parent Pom</name>
 	<description>Port@l 3.0 :: Projects Parent Pom</description>
@@ -16,7 +16,7 @@
 		<connection>scm:git:https://code.google.com/p/isotrol-portal.p3parent/</connection>
 		<developerConnection>scm:git:https://code.google.com/p/isotrol-portal.p3parent/</developerConnection>
 		<url>http://code.google.com/p/isotrol-portal/source/browse/?repo=p3parent</url>
-		<tag>impe3-parent-2.9.195</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<properties>
