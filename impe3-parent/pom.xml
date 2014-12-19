@@ -7,7 +7,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.isotrol.impe3</groupId>
 	<artifactId>impe3-parent</artifactId>
-	<version>3.0.4</version>
+	<version>3.0.5</version>
 	<packaging>pom</packaging>
 	<name>Port@l 3.0:: Projects Parent Pom</name>
 	<description>Port@l 3.0 :: Projects Parent Pom</description>
@@ -25,319 +25,319 @@
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-users-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-pms-ext-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-es-web20-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-dto</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-content-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-es-ticket-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-mapping-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<!-- Port@l Main Project Modules -->
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-lucene</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-hib</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-es-common-server</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-api-base</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-content-client</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-core</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-gui-common</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-idx-common</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-idx-feedburner</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-idx-feedburner-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-mapping-local</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-nr-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-nr-core</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-online-webapp-deps</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-online-webapp</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 				<type>war</type>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-palette</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-pms-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-pms-core</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-pms-gui-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-pms-gui-client</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-pms-gui-server</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-pms-webapp-deps</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 				<type>pom</type>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-pms-webapp</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 				<type>war</type>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-samples</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-test</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-users-client</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-users-server</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-users-web</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-web-online</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-web-pms</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<!-- Wurfl device capabilities provider Modules -->
 			<dependency>
 				<groupId>com.isotrol.impe3.extensions</groupId>
 				<artifactId>impe3-device-wurfl</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<!-- Web 2.0 Modules -->
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-es-oi-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-es-oi-client</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-es-oi-gui-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-es-oi-nr</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-es-oi-server</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-es-web20-client</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-es-web20-gui-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-es-web20-rest</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-es-web20-server</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-es-web20-war</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 				<type>war</type>
 			</dependency>
 			<!-- Drupal Modules -->
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-idx-drupal-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-idx-drupal6</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<!-- OpenCms Modules -->
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-idx-opencms-api</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-idx-opencms-common</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-idx-opencms7</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3</groupId>
 				<artifactId>impe3-palette-oc7</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<!-- LDAP Extension -->
 			<dependency>
 				<groupId>com.isotrol.impe3.extensions</groupId>
 				<artifactId>impe3-pms-ldap</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<!-- Tickets -->
 			<dependency>
 				<groupId>com.isotrol.impe3.tickets</groupId>
 				<artifactId>impe3-tickets-domain</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3.tickets</groupId>
 				<artifactId>impe3-tickets-server</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3.tickets</groupId>
 				<artifactId>impe3-tickets-jersey</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3.tickets</groupId>
 				<artifactId>impe3-tickets-client</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 			</dependency>
 			<dependency>
 				<groupId>com.isotrol.impe3.tickets</groupId>
 				<artifactId>impe3-tickets-war</artifactId>
-				<version>3.0.4</version>
+				<version>3.0.5</version>
 				<type>war</type>
 			</dependency>
 		</dependencies>
